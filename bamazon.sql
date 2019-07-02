@@ -14,33 +14,33 @@ CREATE TABLE products (
 );
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("", "", 2.50, 100);
+VALUES ("iPad", "tablet", 250.99, 400);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("", "", 3.10, 120);
+VALUES ("iPad Mini", "tablet", 300.10, 600);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("", "", 3.25, 75);
+VALUES ("Macbook Pro", "laptop", 1700.25, 500);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("", "", 3.10, 120);
+VALUES ("Macbook Air", "laptop", 1300.10, 650);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("", "", 3.25, 75);
+VALUES ("iPhone X", "phone", 1000.99, 1000);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("", "", 2.50, 100);
+VALUES ("iPhone 7", "phone", 400.50, 300);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("", "", 3.10, 120);
+VALUES ("Apple Watch", "watches", 345.49, 750);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("", "", 3.25, 75);
+VALUES ("fitbit", "watches", 130.25, 200);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("", "", 3.10, 120);
+VALUES ("ipod", "music", 150.10, 50);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("", "", 3.25, 75);
+VALUES ("ipod nano", "music", 250.25, 75);
 
 SELECT * FROM products;
