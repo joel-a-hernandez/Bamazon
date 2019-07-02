@@ -10,8 +10,11 @@ In order to run this application, you should have the MySQL database already set
 # To run the customer interface please follow the steps below:
 
 git clone https://github.com/joel-a-hernandez/Bamazon.git
+
 cd bamazon
+
 npm install
+
 node bamazonCustomer.js
 
 # Customer Interface
